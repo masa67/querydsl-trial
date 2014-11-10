@@ -15,6 +15,7 @@ import javax.persistence.Id;
  * @author Ohjelmistokehitys
  */
 @Entity
+@SuppressWarnings("SerializableClass")
 public class Customer {
     
     @Id
